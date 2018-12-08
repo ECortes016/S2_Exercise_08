@@ -14,6 +14,7 @@
 */
 
 /* Table Styles */
+
 table.schedule {
     background: white;
     border: 10px outset rgb(153, 0, 153);
@@ -22,22 +23,38 @@ table.schedule {
     width: 100%;
 }
 
+/* Table Cell Styles */
+
 table.schedule th,
 table.schedule td {
     border: 1px solid grey;
 }
 
-
-/* Table Cell Styles */
-
-
-
 /* Table Caption Styles */
 
-
+table.schedule caption {
+    caption-side: bottom;
+    text-align: right;
+}
 
 /* Row Group Styles */
 
+table.schedule thead {
+    background: rgb(153, 0, 153);
+    color: white;
+}
 
+table.schedule tfoot {
+    background: black;
+    color: white;
+}
 
 /* Column Group Styles */
+
+col#firstCol {
+    background: rgb(218, 210, 210);
+}
+
+col.dayCol {
+    background: rgb(255, 220, 255);
+}
